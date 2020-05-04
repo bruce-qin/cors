@@ -150,7 +150,8 @@ func DefaultConfig() Config {
 	return Config{
 		AllowMethods:     []string{"GET", "POST", "PUT", "PATCH", "DELETE", "HEAD"},
 		AllowHeaders:     []string{"Origin", "Content-Length", "Content-Type"},
-		AllowCredentials: false,
+		AllowCredentials: true,
+		AllowAllOrigins:  true,
 		MaxAge:           12 * time.Hour,
 	}
 }
