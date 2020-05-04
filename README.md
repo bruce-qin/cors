@@ -15,13 +15,13 @@ Gin middleware/handler to enable CORS support.
 Download and install it:
 
 ```sh
-$ go get github.com/gin-contrib/cors
+$ go get github.com/bruce-qin/cors
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/gin-contrib/cors"
+import "github.com/bruce-qin/cors"
 ```
 
 ### Canonical example:
